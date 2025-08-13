@@ -102,3 +102,33 @@ if (roles.length > 0) {
     rotateRoles();
     setInterval(rotateRoles, 3000); // Change every 3 seconds
 }
+
+// Add this certificate click handler to your existing script.js
+document.querySelectorAll('.certification-card').forEach(card => {
+    card.addEventListener('click', function(e) {
+        // Don't interfere with verify button clicks
+        if (e.target.classList.contains('verify-btn') || e.target.closest('.verify-btn')) {
+            return;
+        }
+        
+        e.preventDefault();
+        
+        // Get all certificate data from data attributes
+        const certData = {
+            image: this.dataset.image,
+            title: this.dataset.title,
+            issuer: this.dataset.issuer,
+            date: this.dataset.date,
+            verifyUrl: this.dataset.verifyUrl,
+            description: this.dataset.description
+        };
+        
+        // Store in session storage for the certificate page
+        sessionStorage.setItem('certData', JSON.stringify(certData));
+        
+        // Navigate to certificate page
+        window.location.href = 'certificate.html';
+    });
+});
+
+// Keep all your existing JavaScript code below this

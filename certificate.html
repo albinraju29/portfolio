@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Details | Albin Raju</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+        </button>
+        <a href="index.html" class="logo">Albin Raju</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#certifications">Certifications</a>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+        </nav>
+    </header>
+
+    <section class="certificate-page">
+        <div class="certificate-container">
+            <div class="certificate-header">
+                <h1 id="cert-title">Certificate Title</h1>
+                <p id="cert-issuer-date">Issued by Organization • Month Year</p>
+            </div>
+            
+            <div class="certificate-image-container">
+                <img src="images/cert-placeholder.jpg" alt="Certificate Image" class="certificate-image" id="cert-image">
+            </div>
+            
+            <div class="certificate-details">
+                <div class="detail-item">
+                    <h3>About This Certification</h3>
+                    <p id="cert-description">Certificate description will be loaded here dynamically.</p>
+                </div>
+                
+                <div class="detail-item">
+                    <h3>Skills Demonstrated</h3>
+                    <p id="cert-skills">
+                        • Skill 1<br>
+                        • Skill 2<br>
+                        • Skill 3
+                    </p>
+                </div>
+                
+                <!-- <div class="detail-item">
+                    <h3>Verification</h3>
+                    <p id="cert-verification-text">This certificate can be verified through the issuer's official portal.</p>
+                </div> -->
+                
+                <div class="action-buttons">
+                    <a href="index.html#certifications" class="back-button">
+                        <i class="fas fa-arrow-left"></i> Back to Certifications
+                    </a>
+                    <a href="#" target="_blank" class="verify-button" id="verify-button">
+                        Show credential <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Albin Raju | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#" title="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="certificate.js"></script>
+</body>
+</html>
