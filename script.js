@@ -120,7 +120,8 @@ document.querySelectorAll('.certification-card').forEach(card => {
             issuer: this.dataset.issuer,
             date: this.dataset.date,
             verifyUrl: this.dataset.verifyUrl,
-            description: this.dataset.description
+            description: this.dataset.description,
+            skills: this.dataset.skills
         };
         
         // Store in session storage for the certificate page

@@ -99,3 +99,45 @@ function initMobileMenu() {
         });
     });
 }
+document.addEventListener('DOMContentLoaded', () => {
+    // Get certificate data from session storage
+    const certData = JSON.parse(sessionStorage.getItem('certData'));
+    
+    if (!certData) {
+        // If no data, redirect back to certifications
+        window.location.href = 'index.html#certifications';
+        return;
+    }
+    
+    // Update page elements
+    document.querySelector('.certificate-header h1').textContent = certData.title;
+    document.querySelector('.certificate-header p').textContent = `Issued by ${certData.issuer} • ${certData.date}`;
+    
+    const certImageElement = document.querySelector('.certificate-image');
+    certImageElement.src = certData.image;
+    certImageElement.alt = `${certData.title} Certificate`;
+    
+    // Set verification button URL
+    const verifyButton = document.querySelector('.verify-button');
+    verifyButton.href = certData.verifyUrl;
+    
+    // Set dynamic content
+    const aboutSection = document.querySelector('.detail-item:nth-child(1) p');
+    const skillsSection = document.querySelector('.detail-item:nth-child(2) p');
+    
+    aboutSection.textContent = certData.description;
+
+    // ✅ Load skills dynamically from data-skills
+    if (certData.skills) {
+        skillsSection.innerHTML = certData.skills
+            .split(';')
+            .map(skill => `• ${skill.trim()}`)
+            .join('<br>');
+    } else {
+        skillsSection.textContent = 'Skills not specified.';
+    }
+    
+    // Initialize theme and menu
+    initThemeToggle();
+    initMobileMenu();
+});

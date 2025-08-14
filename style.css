@@ -882,6 +882,7 @@ section:nth-child(even) {
     font-size: 1.6rem;
     color: var(--text-color);
     line-height: 1.6;
+    text-align: justify;
 }
 
 .detail-item a {
@@ -953,6 +954,7 @@ section:nth-child(even) {
     
     .detail-item p {
         font-size: 1.4rem;
+        text-align: justify;
     }
 }
 /* Certification Verify Button */
