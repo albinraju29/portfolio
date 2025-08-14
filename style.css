@@ -972,3 +972,20 @@ section:nth-child(even) {
     color: var(--primary-color);
     transform: scale(1.05);
 }
+.view-more-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.4rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.view-more-btn:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    transform: scale(1.05);
+}

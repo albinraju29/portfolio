@@ -132,3 +132,30 @@ document.querySelectorAll('.certification-card').forEach(card => {
 });
 
 // Keep all your existing JavaScript code below this
+
+// Handle View More button clicks
+document.querySelectorAll('.view-more-btn').forEach(btn => {
+    btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        const certId = this.dataset.certId;
+        
+        // Get the parent certification card
+        const card = this.closest('.certification-card');
+        
+        // Get all certificate data
+        const certData = {
+            image: card.dataset.image,
+            title: card.querySelector('h3').textContent,
+            issuer: card.querySelector('p').textContent,
+            date: card.querySelector('span').textContent.replace('Issued: ', ''),
+            verifyUrl: card.dataset.verifyUrl,
+            description: card.dataset.description
+        };
+        
+        // Store in session storage for the certificate page
+        sessionStorage.setItem('certData', JSON.stringify(certData));
+        
+        // Navigate to certificate page
+        window.location.href = 'certificate.html';
+    });
+});
