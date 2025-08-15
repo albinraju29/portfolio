@@ -25,7 +25,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const aboutSection = document.querySelector('.detail-item:nth-child(1) p');
     const skillsSection = document.querySelector('.detail-item:nth-child(2) p');
     
-    aboutSection.textContent = certData.description;
+    // Format multi-paragraph description
+// Preserve both paragraphs and line breaks
+    aboutSection.innerHTML = certData.description
+    .split('\n\n') // Split into paragraphs
+    .map(paragraph =>
+        `<p>${paragraph.trim().replace(/\n/g, '<br>')}</p>` // Convert single \n to <br>
+    )
+    .join('');
+
+
     
     // Initialize theme and menu
     initThemeToggle();
