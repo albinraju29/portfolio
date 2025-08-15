@@ -174,20 +174,30 @@ span {
     justify-content: center;
     align-items: center;
     border: 5px solid var(--primary-color);
+    position: relative;
 }
 
 .home-img img {
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 120%;
     object-fit: cover;
-    object-position: center;
+    object-position: center center;
     transition: transform 0.3s ease;
 }
 
 .home-img img:hover {
     transform: scale(1.05);
 }
-
+@media (max-width: 768px) {
+    .home-img {
+        width: 80vw;
+        height: 80vw;
+    }
+    
+    .home-img img {
+        object-position: 70% 30%; /* Adjust vertical position */
+    }
+}
 /* Social Icons */
 .social-icons {
     display: flex;
@@ -922,6 +932,7 @@ section:nth-child(even) {
 }
 
 .verify-button {
+
     display: inline-block;
     padding: 1.2rem 2.8rem;
     background-color: var(--primary-color);
@@ -932,11 +943,23 @@ section:nth-child(even) {
     transition: 0.3s ease;
     cursor: pointer;
     text-decoration: none;
+    margin-top: auto; /* Pushes button to bottom */
+    align-self: center; /* Center horizontally */
+    width: 90%; /* Consistent width */
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 1.4rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .verify-button:hover {
     background-color: transparent;
     color: var(--primary-color);
+    transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
