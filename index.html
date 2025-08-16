@@ -30,7 +30,7 @@
     </header>
     <section class="home">
         <div class="home-img">
-            <img src="main.jpg" alt="Albin Raju's profile picture">
+            <img src="images/profile_pic.jpg" alt="Albin Raju's profile picture">
         </div>
         <div class="home-content">
             <h1>Hi, I'm <span>Albin Raju</span></h1>
@@ -270,27 +270,46 @@
     </div>
 </section>
 
-    <section class="projects" id="projects">
-        <h2 class="heading">My <span>Projects</span></h2>
-        <div class="projects-container">
-            <!-- Project 1 -->
-            <a href="https://github.com/albinraju29/project1" target="_blank" rel="noopener" class="project-card">
+<section class="projects" id="projects">
+    <h2 class="heading">My <span>Projects</span></h2>
+<div class="skeleton-loader">
+    <div class="skeleton-header">
+        <div class="skeleton-title"></div>
+        <div class="skeleton-subtitle"></div>
+    </div>
+    <div class="skeleton-image"></div>
+    <div class="skeleton-content">
+        <div class="skeleton-line"></div>
+        <div class="skeleton-line"></div>
+        <div class="skeleton-line"></div>
+    </div>
+</div>
+    <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-card">
+            <a href="project.html?id=project1" class="card-link">
                 <div class="project-image">
-                    <img src="project1.jpg" alt="CI/CD Pipeline Automation">
+                    <img src="images/projects/project1/i1.PNG" alt="CI/CD Pipeline Automation">
                 </div>
                 <div class="project-info">
-                    <h3>CI/CD Pipeline Automation</h3>
-                    <p>Automated deployment pipeline using Jenkins and Docker</p>
+                    <h3>Book Genre Classification</h3>
+                    <p> Automating the classification of books into appropriate genres 
+                        using NLP and ML</p>
                     <div class="project-tech">
-                        <span>Jenkins</span>
-                        <span>Docker</span>
-                        <span>AWS</span>
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>Machine Learning</span>
                     </div>
                 </div>
             </a>
-            
-            <!-- Project 2 -->
-            <a href="https://github.com/albinraju29/project2" target="_blank" rel="noopener" class="project-card">
+            <div class="project-actions">
+                <a href="project.html?id=project1" class="btn project-details-btn">Show Details</a>
+            </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="project-card">
+            <a href="project.html?id=project2" class="card-link">
                 <div class="project-image">
                     <img src="project2.jpg" alt="Cloud Infrastructure Setup">
                 </div>
@@ -304,9 +323,14 @@
                     </div>
                 </div>
             </a>
-            
-            <!-- Project 3 -->
-            <a href="https://github.com/albinraju29/project3" target="_blank" rel="noopener" class="project-card">
+            <div class="project-actions">
+                <a href="project.html?id=project2" class="btn project-details-btn">Show Details</a>
+            </div>
+        </div>
+        
+        <!-- Project 3 -->
+        <div class="project-card">
+            <a href="project.html?id=project3" class="card-link">
                 <div class="project-image">
                     <img src="project3.jpg" alt="E-commerce Platform">
                 </div>
@@ -320,9 +344,14 @@
                     </div>
                 </div>
             </a>
-            
-            <!-- Project 4 -->
-            <a href="https://github.com/albinraju29/project4" target="_blank" rel="noopener" class="project-card">
+            <div class="project-actions">
+                <a href="project.html?id=project3" class="btn project-details-btn">Show Details</a>
+            </div>
+        </div>
+        
+        <!-- Project 4 -->
+        <div class="project-card">
+            <a href="project.html?id=project4" class="card-link">
                 <div class="project-image">
                     <img src="project4.jpg" alt="Kubernetes Cluster Management">
                 </div>
@@ -336,8 +365,96 @@
                     </div>
                 </div>
             </a>
+            <div class="project-actions">
+                <a href="project.html?id=project4" class="btn project-details-btn">Show Details</a>
+            </div>
         </div>
-    </section>
+        
+        <!-- Project 5 -->
+        <div class="project-card">
+            <a href="project.html?id=project5" class="card-link">
+                <div class="project-image">
+                    <img src="project5.jpg" alt="Machine Learning API">
+                </div>
+                <div class="project-info">
+                    <h3>Machine Learning API</h3>
+                    <p>Scalable ML model serving with FastAPI and Docker</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>Scikit-learn</span>
+                    </div>
+                </div>
+            </a>
+            <div class="project-actions">
+                <a href="project.html?id=project5" class="btn project-details-btn">Show Details</a>
+            </div>
+        </div>
+        
+        <!-- Project 6 -->
+        <div class="project-card">
+            <a href="project.html?id=project6" class="card-link">
+                <div class="project-image">
+                    <img src="project6.jpg" alt="Serverless Application">
+                </div>
+                <div class="project-info">
+                    <h3>Serverless Application</h3>
+                    <p>AWS Lambda based serverless architecture</p>
+                    <div class="project-tech">
+                        <span>AWS Lambda</span>
+                        <span>API Gateway</span>
+                        <span>DynamoDB</span>
+                    </div>
+                </div>
+            </a>
+            <div class="project-actions">
+                <a href="project.html?id=project6" class="btn project-details-btn">Show Details</a>
+            </div>
+        </div>
+        
+        <!-- Project 7 -->
+        <div class="project-card">
+            <a href="project.html?id=project7" class="card-link">
+                <div class="project-image">
+                    <img src="project7.jpg" alt="DevOps Dashboard">
+                </div>
+                <div class="project-info">
+                    <h3>DevOps Dashboard</h3>
+                    <p>Centralized monitoring for CI/CD pipelines</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Grafana</span>
+                    </div>
+                </div>
+            </a>
+            <div class="project-actions">
+                <a href="project.html?id=project7" class="btn project-details-btn">Show Details</a>
+            </div>
+        </div>
+        
+        <!-- Project 8 -->
+        <div class="project-card">
+            <a href="project.html?id=project8" class="card-link">
+                <div class="project-image">
+                    <img src="project8.jpg" alt="Microservices Architecture">
+                </div>
+                <div class="project-info">
+                    <h3>Microservices Architecture</h3>
+                    <p>Containerized microservices with Kubernetes</p>
+                    <div class="project-tech">
+                        <span>Kubernetes</span>
+                        <span>Docker</span>
+                        <span>gRPC</span>
+                    </div>
+                </div>
+            </a>
+            <div class="project-actions">
+                <a href="project.html?id=project8" class="btn project-details-btn">Show Details</a>
+            </div>
+        </div>
+    </div>
+</section>
 
     <section class="education" id="education">
         <h2 class="heading">My <span>Education</span></h2>
@@ -398,7 +515,7 @@
     <div class="certifications-container">
         <!-- Certification 1 -->
         <div class="certification-card" 
-            data-image="images/LUEPYTMAY1252358.jpg"
+            data-image="images/certificates/LUEPYTMAY1252358.jpg"
             data-title="Python Bootcamp"
             data-issuer="LetsUpgrade"
             data-date="June 2025"
@@ -407,7 +524,7 @@
             data-skills="Python Syntax & Programming Fundamentals; Conditional Statements & Loops; Functions & Code Reusability; Lists, Tuples, Sets, Dictionaries; Exception & Error Handling; File I/O Operations; Modules, Packages, and Libraries; Problem-Solving & Algorithm Design; Mini-Project Development & Deployment">
             
             <div class="certification-image">
-                <img src="images/LUEPYTMAY1252358.jpg" alt="Python Bootcamp Certificate">
+                <img src="images/certificates/LUEPYTMAY1252358.jpg" alt="Python Bootcamp Certificate">
             </div>
             <div class="certification-info">
                 <h3>Python Bootcamp</h3>
@@ -422,7 +539,7 @@
 
         <!-- Certification 2 -->
         <div class="certification-card" 
-            data-image="images/classcertofexcellence.jpg"
+            data-image="images/certificates/classcertofexcellence.jpg"
             data-title="Databases for Developers: Foundations"
             data-issuer="Oracle"
             data-date="May 2025"
@@ -442,7 +559,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
                             Real-world Problem Solving & Debugging;
                             Application-oriented Database Development">
             <div class="certification-image">
-                <img src="images/classcertofexcellence.jpg" alt="Oracle Certification">
+                <img src="images/certificates/classcertofexcellence.jpg" alt="Oracle Certification">
             </div>
             <div class="certification-info">
                 <h3>Databases for Developers: Foundations</h3>
@@ -457,7 +574,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
 
         <!-- Certification 3 -->
         <div class="certification-card" 
-            data-image="images/CertificateOfCompletion_Ethics in the Age of Generative AI.jpg"
+            data-image="images/certificates/CertificateOfCompletion_Ethics in the Age of Generative AI.jpg"
             data-title="Ethics in the Age of Generative AI"
             data-issuer="LinkedIn Learning"
             data-date="May 2025"
@@ -476,7 +593,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
         Privacy & Data Protection in AI;
         Societal Impact Analysis of AI">
             <div class="certification-image">
-                <img src="images/CertificateOfCompletion_Ethics in the Age of Generative AI.jpg" alt="LinkedIn Learning Certification">
+                <img src="images/certificates/CertificateOfCompletion_Ethics in the Age of Generative AI.jpg" alt="LinkedIn Learning Certification">
             </div>
             <div class="certification-info">
                 <h3>Ethics in the Age of Generative AI</h3>
@@ -491,7 +608,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
 
         <!-- Certification 4 -->
        <div class="certification-card" 
-            data-image="images/Google Analytics Certification.jpg"
+            data-image="images/certificates/Google Analytics Certification.jpg"
             data-title="Google Analytics Certification"
             data-issuer="Google"
             data-date="May 2025"
@@ -499,7 +616,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
             data-description="Official Google certification demonstrating comprehensive proficiency in Google Analytics, including. Setting up and configuring Google Analytics properties.Data collection methods and implementation best practices.Understanding data models and processing logic.Building and customizing reports. Interpreting user behavior, traffic sources, and conversion data.Applying data insights to drive marketing and business decisions"
             data-skills="Google Analytics Setup; Data Collection & Tagging; Event Tracking; Audience Segmentation; Report Building; Conversion Tracking; Data Interpretation; Marketing Insights">
             <div class="certification-image">
-                <img src="images/Google Analytics Certification.jpg" alt="Google Certification">
+                <img src="images/certificates/Google Analytics Certification.jpg" alt="Google Certification">
             </div>
             <div class="certification-info">
                 <h3>Google Analytics Certification</h3>
@@ -512,7 +629,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
 
         <!-- Certification 5 -->
         <div class="certification-card" 
-            data-image="images/CertificateOfCompletion_Machine Learning with Python Foundations.jpg"
+            data-image="images/certificates/CertificateOfCompletion_Machine Learning with Python Foundations.jpg"
             data-title="Machine Learning With Python: Foundations"
             data-issuer="LinkedIn Learning"
             data-date="May 2025"
@@ -520,7 +637,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
             data-description="Comprehensive introduction to core machine learning concepts using Python, focusing on both supervised and unsupervised learning techniques. The course covered data preprocessing, feature selection, model training and evaluation, and working with popular algorithms such as linear regression, decision trees, k-means clustering, and support vector machines using scikit-learn. Emphasis was placed on practical implementation, best practices, and applying ML solutions to real-world problems."
             data-skills="Python Programming; Machine Learning Fundamentals; Supervised Learning; Unsupervised Learning; scikit-learn; Model Evaluation; Feature Engineering; Data Preprocessing">
             <div class="certification-image">
-                <img src="images/CertificateOfCompletion_Machine Learning with Python Foundations.jpg" alt="Machine Learning Certification">
+                <img src="images/certificates/CertificateOfCompletion_Machine Learning with Python Foundations.jpg" alt="Machine Learning Certification">
             </div>
             <div class="certification-info">
                 <h3>Machine Learning With Python: Foundations</h3>
@@ -533,7 +650,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
 
         <!-- Certification 6 -->
         <div class="certification-card" 
-            data-image="images/Pandas.png"
+            data-image="images/certificates/Pandas.png"
             data-title="Pandas"
             data-issuer="Kaggle"
             data-date="May 2025"
@@ -541,7 +658,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
             data-description="A comprehensive Kaggle micro-course focused on mastering Python's Pandas library for efficient data manipulation and analysis. The training covered reading and writing datasets from multiple formats, exploring and summarizing data with built-in Pandas functions, handling missing values, and combining datasets using merge, join, and concatenation techniques. Learners also gained proficiency in advanced indexing, filtering, sorting, and grouping data for aggregation and transformation. The course emphasized practical, hands-on coding exercises using real-world datasets, enabling participants to clean, prepare, and analyze data effectively for machine learning and analytics workflows."
             data-skills="Data Manipulation; Data Analysis; Pandas Library; Data Cleaning; Handling Missing Data; Data Transformation; Merging and Joining Data; Grouping and Aggregation; Indexing and Selection; Sorting Data; Reading and Writing Data Files; Python Programming for Data">
             <div class="certification-image">
-                <img src="images/Pandas.png" alt="Kaggle Certification">
+                <img src="images/certificates/Pandas.png" alt="Kaggle Certification">
             </div>
             <div class="certification-info">
                 <h3>Pandas</h3>
@@ -554,7 +671,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
 
         <!-- Certification 7 -->
         <div class="certification-card" 
-            data-image="images/tata.jpg"
+            data-image="images/certificates/tata.jpg"
             data-title="Data Visualization: Empowering Business Insights"
             data-issuer="Forage - TATA"
             data-date="April 2025"
@@ -562,7 +679,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
             data-description="A virtual experience program by TATA via Forage focusing on leveraging data visualization to drive business insights. Participants practiced interpreting complex datasets, creating compelling dashboards, and applying storytelling techniques to communicate data-driven narratives effectively. The course covered selecting appropriate visualization methods for different audiences, designing clear and impactful charts, and deriving actionable insights to inform business decisions. Real-world case studies from TATA were used to simulate industry scenarios and enhance problem-solving skills."
             data-skills="Data Visualization; Dashboard Design; Data Storytelling; Business Insights Generation; Chart Selection and Design; Data Interpretation; Business Communication; Analytical Thinking; Insight Presentation; Real-world Case Analysis; Strategic Decision Support">
             <div class="certification-image">
-                <img src="images/tata.jpg" alt="TATA Certification">
+                <img src="images/certificates/tata.jpg" alt="TATA Certification">
             </div>
             <div class="certification-info">
                 <h3>Data Visualization: Empowering Business Insights</h3>
@@ -575,7 +692,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
 
         <!-- Certification 8 -->
         <div class="certification-card" 
-            data-image="images/walmart.jpg"
+            data-image="images/certificates/walmart.jpg"
             data-title="Advanced Software Engineering Job Simulation"
             data-issuer="Forage - Walmart"
             data-date="April 2025"
@@ -583,7 +700,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
             data-description="A virtual experience program by Walmart Global Tech via Forage, simulating real-world software engineering challenges in large-scale systems. Participants practiced designing scalable architectures, optimizing system performance, and implementing algorithms to handle high-volume data processing. The program also covered debugging, testing, and code quality improvement in enterprise environments, along with collaborative development workflows using industry-standard tools."
             data-skills="System Design; Algorithm Optimization; Scalable Architecture; Performance Tuning; Code Debugging; Unit Testing; Software Quality Assurance; Data Processing; Version Control (Git); Collaborative Development; Problem Solving; Large-scale System Engineering">
             <div class="certification-image">
-                <img src="images/walmart.jpg" alt="Walmart Certification">
+                <img src="images/certificates/walmart.jpg" alt="Walmart Certification">
             </div>
             <div class="certification-info">
                 <h3>Advanced Software Engineering Job Simulation</h3>
@@ -596,7 +713,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
 
         <!-- Certification 9 -->
         <div class="certification-card" 
-            data-image="images/cloud_computing.jpg"
+            data-image="images/certificates/cloud_computing.jpg"
             data-title="Cloud Computing"
             data-issuer="NPTEL"
             data-date="November 2024"
@@ -605,7 +722,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
             data-skills="Cloud Architecture; IaaS, PaaS, SaaS; Public, Private & Hybrid Clouds; Virtualization; Distributed Computing; Resource Provisioning; Cloud Security; Scalability & Fault Tolerance; Service Orchestration; Cost Optimization">
             
             <div class="certification-image">
-                <img src="images/cloud_computing.jpg" alt="NPTEL Certification">
+                <img src="images/certificates/cloud_computing.jpg" alt="NPTEL Certification">
             </div>
             
             <div class="certification-info">
@@ -621,7 +738,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
 
         <!-- Certification 10 -->
         <div class="certification-card" 
-            data-image="images/accenture.jpg"
+            data-image="images/certificates/accenture.jpg"
             data-title="Data Analytics and Visualization Job Simulation"
             data-issuer="Forage - Accenture"
             data-date="May 2024"
@@ -630,7 +747,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
             data-skills="Data Cleaning; Data Preprocessing; Exploratory Data Analysis; Data Transformation; Data Visualization; Dashboard Development; Power BI; Storytelling with Data; Insight Generation; Business Problem Solving; Stakeholder Communication; Evidence-Based Recommendations">
             
             <div class="certification-image">
-                <img src="images/accenture.jpg" alt="Accenture Certification">
+                <img src="images/certificates/accenture.jpg" alt="Accenture Certification">
             </div>
             
             <div class="certification-info">
@@ -645,7 +762,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
 
         <!-- Certification 11 -->
         <div class="certification-card" 
-            data-image="images/avodha_completion_certificate.jpg"
+            data-image="images/certificates/avodha_completion_certificate.jpg"
             data-title="Python Full Stack Developer"
             data-issuer="Avodha Edutech"
             data-date="March 2023"
@@ -654,7 +771,7 @@ Additionally, the course explored transaction control commands such as COMMIT, R
             data-skills="Python Programming; Object-Oriented Programming (OOP); Django; HTML5; CSS3; JavaScript; Bootstrap; MySQL; REST APIs; CRUD Operations; Responsive Web Design; Cloud Deployment; Version Control (Git); Full-Stack Development; Problem Solving; Debugging; Project Implementation">
             
             <div class="certification-image">
-                <img src="images/avodha_completion_certificate.jpg" alt="Avodha Certification">
+                <img src="images/certificates/avodha_completion_certificate.jpg" alt="Avodha Certification">
             </div>
             
             <div class="certification-info">

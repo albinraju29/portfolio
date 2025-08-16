@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project Details - Albin Raju's Portfolio">
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Project Details | Albin Raju">
+    <meta property="og:description" content="Detailed view of my project">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Project Details | Albin Raju</title>
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div id="loading-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <header>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+        </button>
+        <a href="index.html" class="logo">Albin Raju</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#projects">Projects</a>
+            <a href="index.html#contact">Contact</a>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+        </nav>
+    </header>
+
+    <section class="project-page">
+        <div class="project-container">
+            <div class="project-header">
+                <h1 id="project-title">Project Title</h1>
+                <p id="project-subtitle">Project short description</p>
+            </div>
+
+            <div class="slider-container">
+                <div class="slider" id="image-gallery">
+                    <!-- Gallery images will be added dynamically -->
+                </div>
+                <button class="gallery-nav prev" aria-label="Previous image">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="gallery-nav next" aria-label="Next image">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="slider-dots" id="slider-dots">
+                    <!-- Dots will be added dynamically -->
+                </div>
+            </div>
+
+            <div class="project-details">
+                <div class="detail-section">
+                    <h2>Project Overview</h2>
+                    <p id="project-description">Detailed project description will be loaded here...</p>
+                </div>
+
+                <div class="detail-section">
+                    <h2>Key Features</h2>
+                    <ul id="project-features">
+                        <!-- Features will be added dynamically -->
+                    </ul>
+                </div>
+
+                <div class="detail-section">
+                    <h2>Technologies Used</h2>
+                    <div class="tech-tags" id="tech-tags">
+                        <!-- Tech tags will be added dynamically -->
+                    </div>
+                </div>
+
+                <div class="detail-section">
+                    <h2>Project Details</h2>
+                    <div class="project-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span id="project-date">Date</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span id="project-status">Status</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-users"></i>
+                            <span id="project-team">Team/Individual</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-section" id="challenges-section">
+                    <h2>Challenges & Solutions</h2>
+                    <div id="challenges-content">
+                        <!-- Challenges will be added dynamically -->
+                    </div>
+                </div>
+
+                <div class="detail-section" id="results-section">
+                    <h2>Results & Impact</h2>
+                    <div id="results-content">
+                        <!-- Results will be added dynamically -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-action-buttons">
+                <a href="index.html#projects" class="btn back-button">
+                    <i class="fas fa-arrow-left"></i> Back to Projects
+                </a>
+                <a href="#" id="live-demo-btn" class="btn demo-button" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> Live Preview
+                </a>
+                <a href="#" id="source-code-btn" class="btn code-button" target="_blank">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="project.js"></script>
+</body>
+</html>

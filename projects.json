@@ -1,0 +1,301 @@
+
+{
+  "projects": [
+    {
+    "id": "project1",
+    "title": "Book Genre Classification",
+    "subtitle": "Automating book genre prediction using NLP and Machine Learning",
+    "image": "images/projects/project1/i1.png",
+    "tech": ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "TF-IDF", "NLP", "Machine Learning", "Django"],
+    "screenshots": [
+        "images/projects/project1/i1.png",
+        "images/projects/project1/i2.png",
+        "images/projects/project1/i3.png",
+        "images/projects/project1/o1.png",
+        "images/projects/project1/o2.png"
+    ],
+    "description": "This project focuses on automating the classification of books into appropriate genres using Natural Language Processing (NLP) and Machine Learning. The system takes a book's description as input and predicts its genre (e.g., Fiction, Mystery, Romance, Non-Fiction) by analyzing and learning from labeled training data. The dataset underwent rigorous preprocessing, including text cleaning, stopword removal, stemming, and TF-IDF vectorization to extract meaningful features. Multiple classification algorithms such as Logistic Regression, Naive Bayes, Random Forest, and Support Vector Machines (SVM) were trained and evaluated using metrics like accuracy, precision, recall, and confusion matrix to identify the best-performing model. The project also included comprehensive data preprocessing pipelines, feature engineering, visualization of model performance, and the development of an interactive script for testing custom book descriptions. I was primarily responsible for data preparation, visualization, system integration, and end-to-end pipeline implementation, while my teammate, Angel C J, led the model-building and training phase. Together, we successfully built a reliable and scalable genre classification system that achieved high accuracy and provided valuable insights into NLP-based classification tasks.",
+
+    "features": [
+        "Comprehensive data preprocessing and feature engineering",
+        "Comparison of ML models using accuracy, precision, recall, and confusion matrix",
+        "Visualizations for model performance",
+        "Interactive script to test custom book descriptions"
+    ],
+    "date": "Dec 2024 - May 2025",
+    "status": "Completed",
+    "team": "Collaborative Project (with Angel C J)",
+    "challenges": [
+        {
+        "problem": "Handling noisy and inconsistent book descriptions",
+        "solution": "Applied advanced text preprocessing including stopword removal, stemming, and lemmatization"
+        },
+        {
+        "problem": "Selecting the most effective ML model",
+        "solution": "Implemented multiple algorithms and compared results with evaluation metrics"
+        }
+    ],
+    "results": [
+        "Achieved high accuracy and balanced precision-recall across genres",
+        "Built a reusable pipeline for future NLP classification tasks",
+        "Developed an interactive testing tool for end users"
+    ],
+    "demo": "#",
+    "code": "https://github.com/albinraju29/book-classification"
+    },
+
+
+    {
+      "id": "project2",
+      "title": "Cloud Infrastructure Setup",
+      "subtitle": "Terraform scripts for AWS infrastructure provisioning",
+      "image": "project2.jpg",
+      "tech": ["Terraform", "AWS", "CI/CD", "Python", "Bash"],
+      "screenshots": ["project2-1.jpg", "project2-2.jpg"],
+      "description": "Designed and implemented a modular Terraform codebase to provision and manage AWS infrastructure across multiple environments. The project included VPC setup, security groups, EC2 instances, RDS databases, and load balancers with a focus on security, scalability, and cost optimization.",
+      "features": [
+        "Infrastructure as Code",
+        "Multi-environment support",
+        "Automated security compliance",
+        "Cost monitoring",
+        "Disaster recovery"
+      ],
+      "date": "February 2025",
+      "status": "Completed",
+      "team": "Team Project (3 members)",
+      "challenges": [
+        {
+          "problem": "Managing state files",
+          "solution": "Implemented remote state storage"
+        },
+        {
+          "problem": "Dependencies between resources",
+          "solution": "Used Terraform modules"
+        }
+      ],
+      "results": [
+        "Reduced provisioning time",
+        "99.9% infrastructure consistency",
+        "30% AWS cost savings"
+      ],
+      "demo": "#",
+      "code": "https://github.com/albinraju29/project2"
+    },
+    {
+      "id": "project3",
+      "title": "E-commerce Platform",
+      "subtitle": "Full stack e-commerce solution with Django and React",
+      "image": "project3.jpg",
+      "tech": ["Django", "React", "PostgreSQL", "Redux", "Stripe"],
+      "screenshots": ["project3-1.jpg", "project3-2.jpg", "project3-3.jpg"],
+      "description": "Developed a complete e-commerce platform with product listings, shopping cart, user authentication, and payment processing. Implemented responsive design and optimized performance for both desktop and mobile users.",
+      "features": [
+        "Product catalog",
+        "Shopping cart",
+        "User authentication",
+        "Payment processing",
+        "Admin dashboard"
+      ],
+      "date": "January 2025",
+      "status": "Completed",
+      "team": "Team Project (4 members)",
+      "challenges": [
+        {
+          "problem": "Payment integration",
+          "solution": "Implemented Stripe API"
+        },
+        {
+          "problem": "Performance optimization",
+          "solution": "Used caching and CDN"
+        }
+      ],
+      "results": [
+        "Handled 1000+ concurrent users",
+        "Reduced page load time by 60%",
+        "Increased conversion rate by 25%"
+      ],
+      "demo": "#",
+      "code": "https://github.com/albinraju29/project3"
+    },
+    {
+      "id": "project4",
+      "title": "Kubernetes Cluster Management",
+      "subtitle": "Managed Kubernetes cluster with monitoring and autoscaling",
+      "image": "project4.jpg",
+      "tech": ["Kubernetes", "Prometheus", "Grafana", "Helm", "Docker"],
+      "screenshots": ["project4-1.jpg", "project4-2.jpg"],
+      "description": "Designed and implemented a production-grade Kubernetes cluster with monitoring, logging, and autoscaling capabilities. Configured CI/CD pipelines for seamless deployment of containerized applications.",
+      "features": [
+        "Cluster monitoring",
+        "Autoscaling",
+        "Log aggregation",
+        "CI/CD integration",
+        "Resource optimization"
+      ],
+      "date": "December 2024",
+      "status": "Completed",
+      "team": "Individual Project",
+      "challenges": [
+        {
+          "problem": "Resource management",
+          "solution": "Implemented HPA"
+        },
+        {
+          "problem": "Monitoring setup",
+          "solution": "Configured Prometheus operator"
+        }
+      ],
+      "results": [
+        "99.95% uptime",
+        "Reduced resource waste by 40%",
+        "Faster deployment cycles"
+      ],
+      "demo": "#",
+      "code": "https://github.com/albinraju29/project4"
+    },
+    {
+      "id": "project5",
+      "title": "Machine Learning API",
+      "subtitle": "Scalable ML model serving with FastAPI and Docker",
+      "image": "project5.jpg",
+      "tech": ["Python", "FastAPI", "Scikit-learn", "Docker", "Redis"],
+      "screenshots": ["project5-1.jpg", "project5-2.jpg"],
+      "description": "Developed a production-ready machine learning API for predictive analytics. Implemented model versioning, input validation, and performance monitoring to ensure reliability and scalability.",
+      "features": [
+        "Model serving",
+        "Input validation",
+        "Performance monitoring",
+        "Autoscaling",
+        "Versioning"
+      ],
+      "date": "November 2024",
+      "status": "Completed",
+      "team": "Team Project (2 members)",
+      "challenges": [
+        {
+          "problem": "Model performance",
+          "solution": "Optimized feature engineering"
+        },
+        {
+          "problem": "Scalability issues",
+          "solution": "Implemented Redis caching"
+        }
+      ],
+      "results": [
+        "Reduced latency by 70%",
+        "Handled 500+ RPS",
+        "Improved prediction accuracy"
+      ],
+      "demo": "#",
+      "code": "https://github.com/albinraju29/project5"
+    },
+    {
+      "id": "project6",
+      "title": "Serverless Application",
+      "subtitle": "AWS Lambda based serverless architecture",
+      "image": "project6.jpg",
+      "tech": ["AWS Lambda", "API Gateway", "DynamoDB", "Serverless Framework"],
+      "screenshots": ["project6-1.jpg", "project6-2.jpg"],
+      "description": "Built a completely serverless application leveraging AWS Lambda for business logic, API Gateway for endpoints, and DynamoDB for data storage. Implemented CI/CD pipeline for automated deployments.",
+      "features": [
+        "Serverless architecture",
+        "Auto-scaling",
+        "Pay-per-use",
+        "Event-driven",
+        "CI/CD pipeline"
+      ],
+      "date": "October 2024",
+      "status": "Completed",
+      "team": "Individual Project",
+      "challenges": [
+        {
+          "problem": "Cold starts",
+          "solution": "Optimized with provisioned concurrency"
+        },
+        {
+          "problem": "Data consistency",
+          "solution": "Implemented transactions"
+        }
+      ],
+      "results": [
+        "Reduced costs by 80%",
+        "Eliminated server management",
+        "Improved scalability"
+      ],
+      "demo": "#",
+      "code": "https://github.com/albinraju29/project6"
+    },
+    {
+      "id": "project7",
+      "title": "DevOps Dashboard",
+      "subtitle": "Centralized monitoring for CI/CD pipelines",
+      "image": "project7.jpg",
+      "tech": ["React", "Node.js", "Grafana", "Prometheus", "WebSockets"],
+      "screenshots": ["project7-1.jpg", "project7-2.jpg", "project7-3.jpg"],
+      "description": "Created a comprehensive dashboard for monitoring CI/CD pipeline status, deployment metrics, and system health. Implemented real-time updates using WebSockets and historical data visualization.",
+      "features": [
+        "Pipeline monitoring",
+        "Real-time updates",
+        "Alerting system",
+        "Historical data",
+        "Custom visualizations"
+      ],
+      "date": "September 2024",
+      "status": "Completed",
+      "team": "Team Project (3 members)",
+      "challenges": [
+        {
+          "problem": "Real-time updates",
+          "solution": "Implemented WebSockets"
+        },
+        {
+          "problem": "Data aggregation",
+          "solution": "Optimized queries"
+        }
+      ],
+      "results": [
+        "Reduced incident response time",
+        "Improved visibility",
+        "Customizable views"
+      ],
+      "demo": "#",
+      "code": "https://github.com/albinraju29/project7"
+    },
+    {
+      "id": "project8",
+      "title": "Microservices Architecture",
+      "subtitle": "Containerized microservices with Kubernetes",
+      "image": "project8.jpg",
+      "tech": ["Kubernetes", "Docker", "gRPC", "Redis", "Prometheus"],
+      "screenshots": ["project8-1.jpg", "project8-2.jpg"],
+      "description": "Designed and implemented a microservices architecture with service discovery, load balancing, and distributed tracing. Each service runs in its own container with clear boundaries and APIs.",
+      "features": [
+        "Service discovery",
+        "Load balancing",
+        "Distributed tracing",
+        "Fault tolerance",
+        "CI/CD integration"
+      ],
+      "date": "August 2024",
+      "status": "Completed",
+      "team": "Team Project (5 members)",
+      "challenges": [
+        {
+          "problem": "Inter-service communication",
+          "solution": "Implemented gRPC"
+        },
+        {
+          "problem": "Data consistency",
+          "solution": "Used Saga pattern"
+        }
+      ],
+      "results": [
+        "Improved scalability",
+        "Better fault isolation",
+        "Easier maintenance"
+      ],
+      "demo": "#",
+      "code": "https://github.com/albinraju29/project8"
+    }
+  ]
+}

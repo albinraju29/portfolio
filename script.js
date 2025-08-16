@@ -160,3 +160,4 @@ document.querySelectorAll('.view-more-btn').forEach(btn => {
         window.location.href = 'certificate.html';
     });
 });
+
