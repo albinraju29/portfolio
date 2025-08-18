@@ -47,255 +47,267 @@
 
     {
       "id": "project2",
-      "title": "Cloud Infrastructure Setup",
-      "subtitle": "Terraform scripts for AWS infrastructure provisioning",
-      "image": "project2.jpg",
-      "tech": ["Terraform", "AWS", "CI/CD", "Python", "Bash"],
-      "screenshots": ["project2-1.jpg", "project2-2.jpg"],
-      "description": "Designed and implemented a modular Terraform codebase to provision and manage AWS infrastructure across multiple environments. The project included VPC setup, security groups, EC2 instances, RDS databases, and load balancers with a focus on security, scalability, and cost optimization.",
-      "features": [
-        "Infrastructure as Code",
-        "Multi-environment support",
-        "Automated security compliance",
-        "Cost monitoring",
-        "Disaster recovery"
+      "title": "MindMap",
+      "subtitle": "AI-powered automated attendance tracking system using facial recognition",
+      "image": "images/projects/project2/o1.png",
+      "tech": ["Python", "Django", "MySQL", "OpenCV", "Facial Recognition", "Machine Learning", "Computer Vision", "AI"],
+      "screenshots": [
+        "images/projects/project2/i1.png",
+        "images/projects/project2/i2.png",
+        "images/projects/project2/i3.png",
+        "images/projects/project2/o2.png"
       ],
-      "date": "February 2025",
+      "description": "MindMap is an AI-powered automated attendance tracking system designed for educational institutions. It leverages facial recognition technology to mark attendance in real-time, streamlining the process for students, teachers, and administrators. The system ensures secure data storage and provides personalized dashboards for role-based access. Built using Django, MySQL, and OpenCV, MindMap improves efficiency, accuracy, and transparency in attendance management.",
+      "features": [
+        "Real-time facial recognition-based attendance marking",
+        "Detailed reporting with visual insights on attendance trends",
+        "Secure database-backed data storage",
+        "Role-based dashboards for administrators, teachers, and students",
+        "Scalable Django backend with MySQL integration"
+      ],
+      "date": "Jun 2024 - Nov 2024",
       "status": "Completed",
-      "team": "Team Project (3 members)",
+      "team": "Collaborative Project (with Union Christian College Aluva)",
       "challenges": [
         {
-          "problem": "Managing state files",
-          "solution": "Implemented remote state storage"
+          "problem": "Ensuring accurate recognition in varying lighting conditions",
+          "solution": "Enhanced preprocessing with OpenCV and optimized ML models"
         },
         {
-          "problem": "Dependencies between resources",
-          "solution": "Used Terraform modules"
+          "problem": "Securing sensitive student attendance data",
+          "solution": "Implemented authentication, role-based access, and encrypted database storage"
         }
       ],
       "results": [
-        "Reduced provisioning time",
-        "99.9% infrastructure consistency",
-        "30% AWS cost savings"
+        "Achieved >95% facial recognition accuracy",
+        "Automated reporting reduced manual effort by 80%",
+        "Improved transparency and accessibility with dashboards"
       ],
       "demo": "#",
-      "code": "https://github.com/albinraju29/project2"
+      "code": "https://github.com/albinraju29/mindmap"
     },
+
     {
       "id": "project3",
-      "title": "E-commerce Platform",
-      "subtitle": "Full stack e-commerce solution with Django and React",
-      "image": "project3.jpg",
-      "tech": ["Django", "React", "PostgreSQL", "Redux", "Stripe"],
-      "screenshots": ["project3-1.jpg", "project3-2.jpg", "project3-3.jpg"],
-      "description": "Developed a complete e-commerce platform with product listings, shopping cart, user authentication, and payment processing. Implemented responsive design and optimized performance for both desktop and mobile users.",
+      "title": "City Wide Bike",
+      "subtitle": "Smart bike-sharing system with demand prediction",
+      "image": "city-bike.jpg",
+      "tech": ["Python", "Django", "Bootstrap", "JavaScript", "DBMS", "Machine Learning"],
+      "screenshots": ["city-bike-1.jpg", "city-bike-2.jpg", "city-bike-3.jpg"],
+      "description": "Developed a city-wide bike-sharing system to efficiently manage rentals and returns, enhancing user convenience and reducing operational inefficiencies. Integrated machine learning models (Lasso and Ridge regression) to predict bike demand and optimize station availability. The project also featured a user-friendly interface with real-time tracking and smooth interaction between users and the system.",
       "features": [
-        "Product catalog",
-        "Shopping cart",
-        "User authentication",
-        "Payment processing",
-        "Admin dashboard"
+        "Bike rental and return management",
+        "Real-time station availability tracking",
+        "Demand prediction using Lasso and Ridge regression",
+        "User-friendly interface with Bootstrap",
+        "Database-backed management system"
       ],
-      "date": "January 2025",
+      "date": "Dec 2021 - May 2022",
       "status": "Completed",
-      "team": "Team Project (4 members)",
+      "team": "Team Project (BCA Main Project)",
       "challenges": [
         {
-          "problem": "Payment integration",
-          "solution": "Implemented Stripe API"
+          "problem": "Predicting varying bike demand across stations",
+          "solution": "Implemented regression models (Lasso and Ridge) for accurate demand forecasting"
         },
         {
-          "problem": "Performance optimization",
-          "solution": "Used caching and CDN"
+          "problem": "Ensuring smooth user experience",
+          "solution": "Designed responsive UI with Bootstrap and optimized backend queries"
         }
       ],
       "results": [
-        "Handled 1000+ concurrent users",
-        "Reduced page load time by 60%",
-        "Increased conversion rate by 25%"
+        "Improved availability by predicting demand trends",
+        "Reduced operational inefficiencies in bike distribution",
+        "Delivered a scalable and user-friendly bike-sharing solution"
       ],
       "demo": "#",
-      "code": "https://github.com/albinraju29/project3"
+      "code": "https://github.com/albinraju29/bike-rental-system"
     },
+
     {
       "id": "project4",
-      "title": "Kubernetes Cluster Management",
-      "subtitle": "Managed Kubernetes cluster with monitoring and autoscaling",
+      "title": "Food Forage",
+      "subtitle": "Online food redistribution platform to reduce food wastage",
       "image": "project4.jpg",
-      "tech": ["Kubernetes", "Prometheus", "Grafana", "Helm", "Docker"],
+      "tech": ["PHP", "Bootstrap", "DBMS", "JavaScript"],
       "screenshots": ["project4-1.jpg", "project4-2.jpg"],
-      "description": "Designed and implemented a production-grade Kubernetes cluster with monitoring, logging, and autoscaling capabilities. Configured CI/CD pipelines for seamless deployment of containerized applications.",
+      "description": "Created an online food redistribution platform to reduce food wastage and address food poverty. The system automated the process of connecting donors, agents, and orphanages for efficient food collection and distribution. Incorporated secure user authentication, detailed reporting, and request handling features to ensure transparency and data integrity. The project emphasized leveraging technology for social responsibility.",
       "features": [
-        "Cluster monitoring",
-        "Autoscaling",
-        "Log aggregation",
-        "CI/CD integration",
-        "Resource optimization"
+        "Automated donor-to-orphanage food request handling",
+        "Secure user authentication and role management",
+        "Detailed reporting for food distribution",
+        "Dashboard for agents and administrators",
+        "Transparency-focused tracking of donations"
       ],
-      "date": "December 2024",
+      "date": "Jun 2021 - Oct 2021",
       "status": "Completed",
-      "team": "Individual Project",
+      "team": "Individual Project (BCA Mini Project)",
       "challenges": [
         {
-          "problem": "Resource management",
-          "solution": "Implemented HPA"
+          "problem": "Ensuring data integrity across donors, agents, and orphanages",
+          "solution": "Implemented relational database structure with role-based access control"
         },
         {
-          "problem": "Monitoring setup",
-          "solution": "Configured Prometheus operator"
+          "problem": "Streamlining food collection and distribution",
+          "solution": "Developed automated workflows and dashboards for all stakeholders"
         }
       ],
       "results": [
-        "99.95% uptime",
-        "Reduced resource waste by 40%",
-        "Faster deployment cycles"
+        "Reduced food wastage by enabling efficient redistribution",
+        "Improved transparency in donation tracking",
+        "Developed a scalable system for social good"
       ],
       "demo": "#",
-      "code": "https://github.com/albinraju29/project4"
+      "code": "https://github.com/albinraju29/Food_Saviour"
     },
+
     {
       "id": "project5",
-      "title": "Machine Learning API",
-      "subtitle": "Scalable ML model serving with FastAPI and Docker",
-      "image": "project5.jpg",
-      "tech": ["Python", "FastAPI", "Scikit-learn", "Docker", "Redis"],
-      "screenshots": ["project5-1.jpg", "project5-2.jpg"],
-      "description": "Developed a production-ready machine learning API for predictive analytics. Implemented model versioning, input validation, and performance monitoring to ensure reliability and scalability.",
+      "title": "Snake Game",
+      "subtitle": "Classic Snake Game built with HTML, CSS, and JavaScript",
+      "image": "snake-game.jpg",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "screenshots": ["snake-1.jpg", "snake-2.jpg"],
+      "description": "Developed a browser-based Snake Game that provides a nostalgic arcade experience. The game features smooth controls, score tracking, and increasing difficulty levels as the snake grows.",
       "features": [
-        "Model serving",
-        "Input validation",
-        "Performance monitoring",
-        "Autoscaling",
-        "Versioning"
-      ],
-      "date": "November 2024",
-      "status": "Completed",
-      "team": "Team Project (2 members)",
-      "challenges": [
-        {
-          "problem": "Model performance",
-          "solution": "Optimized feature engineering"
-        },
-        {
-          "problem": "Scalability issues",
-          "solution": "Implemented Redis caching"
-        }
-      ],
-      "results": [
-        "Reduced latency by 70%",
-        "Handled 500+ RPS",
-        "Improved prediction accuracy"
-      ],
-      "demo": "#",
-      "code": "https://github.com/albinraju29/project5"
-    },
-    {
-      "id": "project6",
-      "title": "Serverless Application",
-      "subtitle": "AWS Lambda based serverless architecture",
-      "image": "project6.jpg",
-      "tech": ["AWS Lambda", "API Gateway", "DynamoDB", "Serverless Framework"],
-      "screenshots": ["project6-1.jpg", "project6-2.jpg"],
-      "description": "Built a completely serverless application leveraging AWS Lambda for business logic, API Gateway for endpoints, and DynamoDB for data storage. Implemented CI/CD pipeline for automated deployments.",
-      "features": [
-        "Serverless architecture",
-        "Auto-scaling",
-        "Pay-per-use",
-        "Event-driven",
-        "CI/CD pipeline"
-      ],
-      "date": "October 2024",
-      "status": "Completed",
-      "team": "Individual Project",
-      "challenges": [
-        {
-          "problem": "Cold starts",
-          "solution": "Optimized with provisioned concurrency"
-        },
-        {
-          "problem": "Data consistency",
-          "solution": "Implemented transactions"
-        }
-      ],
-      "results": [
-        "Reduced costs by 80%",
-        "Eliminated server management",
-        "Improved scalability"
-      ],
-      "demo": "#",
-      "code": "https://github.com/albinraju29/project6"
-    },
-    {
-      "id": "project7",
-      "title": "DevOps Dashboard",
-      "subtitle": "Centralized monitoring for CI/CD pipelines",
-      "image": "project7.jpg",
-      "tech": ["React", "Node.js", "Grafana", "Prometheus", "WebSockets"],
-      "screenshots": ["project7-1.jpg", "project7-2.jpg", "project7-3.jpg"],
-      "description": "Created a comprehensive dashboard for monitoring CI/CD pipeline status, deployment metrics, and system health. Implemented real-time updates using WebSockets and historical data visualization.",
-      "features": [
-        "Pipeline monitoring",
-        "Real-time updates",
-        "Alerting system",
-        "Historical data",
-        "Custom visualizations"
-      ],
-      "date": "September 2024",
-      "status": "Completed",
-      "team": "Team Project (3 members)",
-      "challenges": [
-        {
-          "problem": "Real-time updates",
-          "solution": "Implemented WebSockets"
-        },
-        {
-          "problem": "Data aggregation",
-          "solution": "Optimized queries"
-        }
-      ],
-      "results": [
-        "Reduced incident response time",
-        "Improved visibility",
-        "Customizable views"
-      ],
-      "demo": "#",
-      "code": "https://github.com/albinraju29/project7"
-    },
-    {
-      "id": "project8",
-      "title": "Microservices Architecture",
-      "subtitle": "Containerized microservices with Kubernetes",
-      "image": "project8.jpg",
-      "tech": ["Kubernetes", "Docker", "gRPC", "Redis", "Prometheus"],
-      "screenshots": ["project8-1.jpg", "project8-2.jpg"],
-      "description": "Designed and implemented a microservices architecture with service discovery, load balancing, and distributed tracing. Each service runs in its own container with clear boundaries and APIs.",
-      "features": [
-        "Service discovery",
-        "Load balancing",
-        "Distributed tracing",
-        "Fault tolerance",
-        "CI/CD integration"
+        "Responsive gameplay",
+        "Score tracking",
+        "Difficulty scaling",
+        "Keyboard controls",
+        "Modern UI design"
       ],
       "date": "August 2024",
       "status": "Completed",
-      "team": "Team Project (5 members)",
+      "team": "Solo Project",
       "challenges": [
         {
-          "problem": "Inter-service communication",
-          "solution": "Implemented gRPC"
+          "problem": "Handling snake collisions",
+          "solution": "Implemented collision detection with boundaries and self"
         },
         {
-          "problem": "Data consistency",
-          "solution": "Used Saga pattern"
+          "problem": "Ensuring smooth movement",
+          "solution": "Used requestAnimationFrame for efficient rendering"
         }
       ],
       "results": [
-        "Improved scalability",
-        "Better fault isolation",
-        "Easier maintenance"
+        "Delivered a fully playable arcade-style game",
+        "Improved JavaScript DOM manipulation skills",
+        "Enhanced understanding of game loops and animations"
       ],
       "demo": "#",
-      "code": "https://github.com/albinraju29/project8"
+      "code": "https://github.com/albinraju29/snake_game"
+    },
+
+    {
+      "id": "project6",
+      "title": "Neon Tic Tac Toe",
+      "subtitle": "A modern glowing Tic Tac Toe game built with HTML, CSS, and JavaScript",
+      "image": "neon-tic-tac-toe.jpg",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "screenshots": ["neon-ttt-1.jpg", "neon-ttt-2.jpg"],
+      "description": "An interactive and visually striking Tic Tac Toe game with a neon theme. The project demonstrates core JavaScript logic for game functionality along with creative use of CSS animations and effects for an engaging user experience.",
+      "features": [
+        "Two-player gameplay",
+        "Winning line highlight",
+        "Neon glow design",
+        "Responsive layout",
+        "Reset / restart option"
+      ],
+      "date": "August 2024",
+      "status": "Completed",
+      "team": "Individual Project",
+      "challenges": [
+        {
+          "problem": "Ensuring responsive neon glow effects",
+          "solution": "Used scalable CSS units and media queries"
+        },
+        {
+          "problem": "Game logic for win detection",
+          "solution": "Implemented efficient win condition checks using arrays"
+        }
+      ],
+      "results": [
+        "Improved understanding of game logic in JavaScript",
+        "Enhanced front-end design skills with neon UI",
+        "Created a fun and engaging browser-based game"
+      ],
+      "demo": "https://albinraju29.github.io/neon-tic-tac-toe/",
+      "code": "https://github.com/albinraju29/neon-tic-tac-toe"
+    },
+
+    {
+      "id": "project7",
+      "title": "Dino Game",
+      "subtitle": "A fun browser-based dinosaur running game",
+      "image": "dino-game.jpg",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "screenshots": ["dino-game-1.jpg", "dino-game-2.jpg"],
+      "description": "Developed a browser-based endless runner game inspired by the classic Chrome Dino game. Implemented jump mechanics, collision detection, and scoring system using JavaScript. Added responsive design and smooth animations for an engaging user experience.",
+      "features": [
+        "Endless runner gameplay",
+        "Jump and obstacle mechanics",
+        "Real-time scoring system",
+        "Collision detection",
+        "Responsive design"
+      ],
+      "date": "August 2021",
+      "status": "Completed",
+      "team": "Individual Project",
+      "challenges": [
+        {
+          "problem": "Collision accuracy",
+          "solution": "Fine-tuned bounding box detection"
+        },
+        {
+          "problem": "Smooth animations",
+          "solution": "Optimized CSS transitions and requestAnimationFrame"
+        }
+      ],
+      "results": [
+        "Lightweight and responsive gameplay",
+        "Playable across browsers",
+        "Engaging retro-style UI"
+      ],
+      "demo": "#",
+      "code": "https://github.com/albinraju29/dino_game"
+    },
+
+    {
+      "id": "project8",
+      "title": "Flappy Bird Game",
+      "subtitle": "Classic game built with Python (Pygame)",
+      "image": "flappybird.jpg",
+      "tech": ["Python", "Pygame"],
+      "screenshots": ["flappybird-1.jpg", "flappybird-2.jpg"],
+      "description": "A clone of the popular Flappy Bird game implemented in Python using Pygame. Features smooth gameplay, scoring system, and retro graphics.",
+      "features": [
+        "Classic flappy gameplay",
+        "Score tracking",
+        "Collision detection",
+        "Random pipe generation",
+        "Restart on game over"
+      ],
+      "date": "August 2024",
+      "status": "Completed",
+      "team": "Solo Project",
+      "challenges": [
+        {
+          "problem": "Smooth collision detection",
+          "solution": "Implemented pixel-perfect collision with Pygame masks"
+        },
+        {
+          "problem": "Random obstacle generation",
+          "solution": "Created dynamic pipe generation logic"
+        }
+      ],
+      "results": [
+        "Fully playable game",
+        "Lightweight and portable",
+        "Good demonstration of Pygame skills"
+      ],
+      "demo": "#",
+      "code": "https://github.com/albinraju29/flappy_bird_game"
     }
+
   ]
 }
