@@ -48,7 +48,7 @@
     {
       "id": "project2",
       "title": "MindMap",
-      "subtitle": "AI-powered automated attendance tracking system using facial recognition",
+      "subtitle": "AI-powered automated attendance marking using facial recognition",
       "image": "images/projects/project2/o1.png",
       "tech": ["Python", "Django", "MySQL", "OpenCV", "Facial Recognition", "Machine Learning", "Computer Vision", "AI"],
       "screenshots": [
@@ -57,7 +57,7 @@
         "images/projects/project2/i3.png",
         "images/projects/project2/o2.png"
       ],
-      "description": "MindMap is an AI-powered automated attendance tracking system designed for educational institutions. It leverages facial recognition technology to mark attendance in real-time, streamlining the process for students, teachers, and administrators. The system ensures secure data storage and provides personalized dashboards for role-based access. Built using Django, MySQL, and OpenCV, MindMap improves efficiency, accuracy, and transparency in attendance management.",
+      "description": "MindMap is an AI-powered automated attendance tracking system designed for educational institutions. Utilizing facial recognition technology, MindMap marks attendance in real-time, streamlining the process for students, teachers, and administrators. Key features include:Detailed Reporting: Generates real-time reports and visual insights for analyzing attendance trends.Secure Data Storage: Stores attendance data safely in a database, accessible through personalized dashboards for administrators, teachers, and students",
       "features": [
         "Real-time facial recognition-based attendance marking",
         "Detailed reporting with visual insights on attendance trends",
@@ -79,7 +79,7 @@
         }
       ],
       "results": [
-        "Achieved >95% facial recognition accuracy",
+        "Achieved >85% facial recognition accuracy",
         "Automated reporting reduced manual effort by 80%",
         "Improved transparency and accessibility with dashboards"
       ],
