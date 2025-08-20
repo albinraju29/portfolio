@@ -164,11 +164,11 @@
     {
       "id": "project5",
       "title": "Snake Game",
-      "subtitle": "Classic Snake Game built with HTML, CSS, and JavaScript",
+      "subtitle": "Classic Snake Game built with HTML, CSS, JavaScript, and Pygame (Python).",
       "image": "snake-game.jpg",
-      "tech": ["HTML", "CSS", "JavaScript"],
-      "screenshots": ["snake-1.jpg", "snake-2.jpg"],
-      "description": "Developed a browser-based Snake Game that provides a nostalgic arcade experience. The game features smooth controls, score tracking, and increasing difficulty levels as the snake grows.",
+      "tech": ["HTML", "CSS", "JavaScript (DOM & Canvas API)", "Python", "Pygame", "Git/GitHub"],
+      "screenshots": ["images/projects/project5/s1.png", "images/projects/project5/s2.png","images/projects/project5/s3.png","images/projects/project5/s4.png","images/projects/project5/s5.png"],
+      "description": "Developed two fully functional versions of the classic Snake Game to provide both online and offline gameplay experiences. The browser-based version, built using HTML, CSS, and JavaScript, is lightweight, responsive, and accessible through a live preview, allowing anyone to instantly play without installation. In parallel, I created a desktop version using Python’s Pygame library, which offers a richer offline arcade-style experience while retaining the same mechanics. Both versions feature smooth controls, dynamic difficulty scaling as the snake grows, real-time score tracking, and a modern user interface, giving players a nostalgic yet polished gaming experience while significantly enhancing my skills in JavaScript DOM manipulation, Python game development, and performance optimization techniques.",
       "features": [
         "Responsive gameplay",
         "Score tracking",
@@ -194,7 +194,7 @@
         "Improved JavaScript DOM manipulation skills",
         "Enhanced understanding of game loops and animations"
       ],
-      "demo": "#",
+      "demo": "https://albinraju29.github.io/snake_game/",
       "code": "https://github.com/albinraju29/snake_game"
     },
 
@@ -203,9 +203,9 @@
       "title": "Neon Tic Tac Toe",
       "subtitle": "A modern glowing Tic Tac Toe game built with HTML, CSS, and JavaScript",
       "image": "neon-tic-tac-toe.jpg",
-      "tech": ["HTML", "CSS", "JavaScript"],
-      "screenshots": ["neon-ttt-1.jpg", "neon-ttt-2.jpg"],
-      "description": "An interactive and visually striking Tic Tac Toe game with a neon theme. The project demonstrates core JavaScript logic for game functionality along with creative use of CSS animations and effects for an engaging user experience.",
+      "tech": ["HTML", "CSS", "JavaScript (DOM & Canvas API)", "Python", "Pygame", "Git/GitHub"],
+      "screenshots": ["images/projects/project6/t1.PNG", "images/projects/project6/t2.PNG","images/projects/project6/t3.PNG","images/projects/project6/t4.PNG","images/projects/project6/t5.PNG"],
+      "description": "An interactive and visually striking Tic Tac Toe game with a neon theme, designed to combine logic and aesthetics. The browser-based version is built using HTML, CSS, and JavaScript, where the core game logic is implemented in JavaScript while creative use of CSS animations and neon effects deliver a futuristic user experience. The game includes features such as win detection, draw handling, and a smooth user interface. Additionally, a desktop version was developed using Python and Pygame, offering an offline mode with similar mechanics, interactive graphics, and responsive controls. Both versions emphasize problem-solving, modular coding practices, and creative front-end design.",
       "features": [
         "Two-player gameplay",
         "Winning line highlight",
@@ -240,9 +240,9 @@
       "title": "Dino Game",
       "subtitle": "A fun browser-based dinosaur running game",
       "image": "dino-game.jpg",
-      "tech": ["HTML", "CSS", "JavaScript"],
-      "screenshots": ["dino-game-1.jpg", "dino-game-2.jpg"],
-      "description": "Developed a browser-based endless runner game inspired by the classic Chrome Dino game. Implemented jump mechanics, collision detection, and scoring system using JavaScript. Added responsive design and smooth animations for an engaging user experience.",
+      "tech": ["HTML", "CSS", "JavaScript (DOM & Canvas API)", "Python", "Pygame", "Git/GitHub"],
+      "screenshots": ["images/projects/project7/d1.png", "images/projects/project7/d2.png","images/projects/project7/d3.png","images/projects/project7/d4.png"],
+      "description": "Developed two versions of an Endless Runner game inspired by the classic Chrome Dino game: a browser-based version (HTML, CSS, JavaScript) featuring jump mechanics, collision detection, smooth animations, scoring system, and responsive design for seamless online play, and a desktop version (Python Pygame) providing an offline gaming experience with similar mechanics and enhanced performance. Both versions emphasize interactive gameplay, progressively increasing difficulty, and engaging user experience.",
       "features": [
         "Endless runner gameplay",
         "Jump and obstacle mechanics",
@@ -250,7 +250,7 @@
         "Collision detection",
         "Responsive design"
       ],
-      "date": "August 2021",
+      "date": "August 2024",
       "status": "Completed",
       "team": "Individual Project",
       "challenges": [
@@ -268,7 +268,7 @@
         "Playable across browsers",
         "Engaging retro-style UI"
       ],
-      "demo": "#",
+      "demo": "https://albinraju29.github.io/dino_game/",
       "code": "https://github.com/albinraju29/dino_game"
     },
 
@@ -277,9 +277,9 @@
       "title": "Flappy Bird Game",
       "subtitle": "Classic game built with Python (Pygame)",
       "image": "flappybird.jpg",
-      "tech": ["Python", "Pygame"],
-      "screenshots": ["flappybird-1.jpg", "flappybird-2.jpg"],
-      "description": "A clone of the popular Flappy Bird game implemented in Python using Pygame. Features smooth gameplay, scoring system, and retro graphics.",
+      "tech": ["HTML", "CSS", "JavaScript (DOM & Canvas API)", "Python", "Pygame", "Git/GitHub"],
+      "screenshots": ["images/projects/project8/f1.png", "flappybird-2.jpg"],
+      "description": "Developed a Flappy Bird clone in two versions: a browser-based version (HTML, CSS, JavaScript) for online play and a desktop version (Python Pygame) for offline use. Both versions replicate the addictive gameplay of the original with smooth controls, obstacle generation, collision detection, and scoring system. The JavaScript version includes responsive design for web compatibility, while the Pygame version provides enhanced performance, retro-style graphics, and immersive offline gameplay.",
       "features": [
         "Classic flappy gameplay",
         "Score tracking",
@@ -305,7 +305,7 @@
         "Lightweight and portable",
         "Good demonstration of Pygame skills"
       ],
-      "demo": "#",
+      "demo": "https://albinraju29.github.io/flappy_bird_game/",
       "code": "https://github.com/albinraju29/flappy_bird_game"
     }
 
