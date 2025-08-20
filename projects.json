@@ -93,7 +93,10 @@
       "subtitle": "Smart bike-sharing system with demand prediction",
       "image": "city-bike.jpg",
       "tech": ["Python", "Django", "Bootstrap", "JavaScript", "DBMS", "Machine Learning"],
-      "screenshots": ["city-bike-1.jpg", "city-bike-2.jpg", "city-bike-3.jpg"],
+      "screenshots": [
+      "city-bike-1.jpg", 
+      "city-bike-2.jpg", 
+      "city-bike-3.jpg"],
       "description": "Developed a city-wide bike-sharing system to efficiently manage rentals and returns, enhancing user convenience and reducing operational inefficiencies. Integrated machine learning models (Lasso and Ridge regression) to predict bike demand and optimize station availability. The project also featured a user-friendly interface with real-time tracking and smooth interaction between users and the system.",
       "features": [
         "Bike rental and return management",
@@ -167,7 +170,12 @@
       "subtitle": "Classic Snake Game built with HTML, CSS, JavaScript, and Pygame (Python).",
       "image": "snake-game.jpg",
       "tech": ["HTML", "CSS", "JavaScript (DOM & Canvas API)", "Python", "Pygame", "Git/GitHub"],
-      "screenshots": ["images/projects/project5/s1.png", "images/projects/project5/s2.png","images/projects/project5/s3.png","images/projects/project5/s4.png","images/projects/project5/s5.png"],
+      "screenshots": [
+        "images/projects/project5/s1.png", 
+        "images/projects/project5/s2.png",
+        "images/projects/project5/s3.png",
+        "images/projects/project5/s4.png",
+        "images/projects/project5/s5.png"],
       "description": "Developed two fully functional versions of the classic Snake Game to provide both online and offline gameplay experiences. The browser-based version, built using HTML, CSS, and JavaScript, is lightweight, responsive, and accessible through a live preview, allowing anyone to instantly play without installation. In parallel, I created a desktop version using Python’s Pygame library, which offers a richer offline arcade-style experience while retaining the same mechanics. Both versions feature smooth controls, dynamic difficulty scaling as the snake grows, real-time score tracking, and a modern user interface, giving players a nostalgic yet polished gaming experience while significantly enhancing my skills in JavaScript DOM manipulation, Python game development, and performance optimization techniques.",
       "features": [
         "Responsive gameplay",
@@ -204,7 +212,7 @@
       "subtitle": "A modern glowing Tic Tac Toe game built with HTML, CSS, and JavaScript",
       "image": "neon-tic-tac-toe.jpg",
       "tech": ["HTML", "CSS", "JavaScript (DOM & Canvas API)", "Python", "Pygame", "Git/GitHub"],
-      "screenshots": ["images/projects/project6/t1.PNG", "images/projects/project6/t2.PNG","images/projects/project6/t3.PNG","images/projects/project6/t4.PNG","images/projects/project6/t5.PNG"],
+      "screenshots": ["images/projects/project6/t1.png", "images/projects/project6/t2.png","images/projects/project6/t3.png","images/projects/project6/t4.png","images/projects/project6/t5.png"],
       "description": "An interactive and visually striking Tic Tac Toe game with a neon theme, designed to combine logic and aesthetics. The browser-based version is built using HTML, CSS, and JavaScript, where the core game logic is implemented in JavaScript while creative use of CSS animations and neon effects deliver a futuristic user experience. The game includes features such as win detection, draw handling, and a smooth user interface. Additionally, a desktop version was developed using Python and Pygame, offering an offline mode with similar mechanics, interactive graphics, and responsive controls. Both versions emphasize problem-solving, modular coding practices, and creative front-end design.",
       "features": [
         "Two-player gameplay",
@@ -241,7 +249,11 @@
       "subtitle": "A fun browser-based dinosaur running game",
       "image": "dino-game.jpg",
       "tech": ["HTML", "CSS", "JavaScript (DOM & Canvas API)", "Python", "Pygame", "Git/GitHub"],
-      "screenshots": ["images/projects/project7/d1.png", "images/projects/project7/d2.png","images/projects/project7/d3.png","images/projects/project7/d4.png"],
+      "screenshots": [
+        "images/projects/project7/d1.png", 
+        "images/projects/project7/d2.png",
+        "images/projects/project7/d3.png",
+        "images/projects/project7/d4.png"],
       "description": "Developed two versions of an Endless Runner game inspired by the classic Chrome Dino game: a browser-based version (HTML, CSS, JavaScript) featuring jump mechanics, collision detection, smooth animations, scoring system, and responsive design for seamless online play, and a desktop version (Python Pygame) providing an offline gaming experience with similar mechanics and enhanced performance. Both versions emphasize interactive gameplay, progressively increasing difficulty, and engaging user experience.",
       "features": [
         "Endless runner gameplay",
@@ -278,7 +290,9 @@
       "subtitle": "Classic game built with Python (Pygame)",
       "image": "flappybird.jpg",
       "tech": ["HTML", "CSS", "JavaScript (DOM & Canvas API)", "Python", "Pygame", "Git/GitHub"],
-      "screenshots": ["images/projects/project8/f1.png", "flappybird-2.jpg"],
+      "screenshots": [
+        "images/projects/project8/f1.png", 
+        "flappybird-2.jpg"],
       "description": "Developed a Flappy Bird clone in two versions: a browser-based version (HTML, CSS, JavaScript) for online play and a desktop version (Python Pygame) for offline use. Both versions replicate the addictive gameplay of the original with smooth controls, obstacle generation, collision detection, and scoring system. The JavaScript version includes responsive design for web compatibility, while the Pygame version provides enhanced performance, retro-style graphics, and immersive offline gameplay.",
       "features": [
         "Classic flappy gameplay",
