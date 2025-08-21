@@ -330,6 +330,8 @@ section:nth-child(even) {
     text-align: center;
     border: 0.2rem solid var(--card-border);
     transition: 0.5s ease;
+    text-align: justify;
+
 }
 
 .service-box:hover {
